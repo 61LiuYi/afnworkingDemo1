@@ -43,6 +43,7 @@
         NSDictionary * newsDict=[rootDict objectForKey:@"news"];
         NSString * titleStr=[newsDict objectForKey:@"newsTitle"];
         [testTest setText:titleStr];
+        
       
         
     } failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error) {
